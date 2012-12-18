@@ -210,8 +210,6 @@ Puppet::Type.type(:vcsrepo).provide(:git, :parent => Puppet::Provider::Vcsrepo) 
       git_with_identity('submodule', 'update', '--init','--recursive')
       #git_with_identity('submodule', 'init')
       #git_with_identity('submodule', 'update')
-      #git_with_identity('submodule', 'foreach', 'git', 'submodule', 'init')
-      #git_with_identity('submodule', 'foreach', 'git', 'submodule', 'update')
     end
   end
 
